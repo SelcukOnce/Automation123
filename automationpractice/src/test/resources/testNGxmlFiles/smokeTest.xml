@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke tests">
+    <test name="ChromeTests">
+        <classes>
+            <class name="com.automationpractice.login.LoginTest">
+                <methods>
+                    <include name="Login_with_invalid_userid" />
+                    <!-- <exclude name="Login_with_invalid_userid" /> -->
+                </methods>
+            </class>
+            <class name="com.automationpractice.user_registration.UserRegistration" />
+        </classes>
+    </test> <!-- ChromeTests -->
+</suite> <!-- Regression -->
+

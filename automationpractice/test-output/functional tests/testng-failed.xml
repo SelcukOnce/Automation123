@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [functional tests]">
+  <test name="Simple example(failed)">
+    <groups>
+      <run>
+        <include name="functional"/>
+        <exclude name="broken"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automationpractice.login.LoginTest">
+        <methods>
+          <include name="testOne"/>
+        </methods>
+      </class> <!-- com.automationpractice.login.LoginTest -->
+    </classes>
+  </test> <!-- Simple example(failed) -->
+</suite> <!-- Failed suite [functional tests] -->

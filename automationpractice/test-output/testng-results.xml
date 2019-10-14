@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2802" started-at="2019-10-14T22:03:27Z" finished-at="2019-10-14T22:03:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2802" started-at="2019-10-14T22:03:27Z" finished-at="2019-10-14T22:03:29Z">
+      <class name="com.herokuapp.testLeaf.Window">
+        <test-method status="PASS" signature="initializeReporter()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="initializeReporter" is-config="true" duration-ms="148" started-at="2019-10-14T18:03:26Z" finished-at="2019-10-14T18:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReporter -->
+        <test-method status="FAIL" signature="init()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="init" is-config="true" duration-ms="0" started-at="2019-10-14T18:03:27Z" finished-at="2019-10-14T18:03:27Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[org.openqa.selenium.chrome.ChromeDriver cannot be cast to org.openqa.selenium.support.events.EventFiringWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: org.openqa.selenium.chrome.ChromeDriver cannot be cast to org.openqa.selenium.support.events.EventFiringWebDriver
+	at driver_factory.NonStaticDriver.init(NonStaticDriver.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="windowTest1()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="windowTest1" duration-ms="1" started-at="2019-10-14T18:03:29Z" finished-at="2019-10-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowTest1 -->
+        <test-method status="SKIP" signature="saveReport()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="saveReport" is-config="true" duration-ms="0" started-at="2019-10-14T18:03:29Z" finished-at="2019-10-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+        <test-method status="SKIP" signature="windowTest2()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="windowTest2" duration-ms="1" started-at="2019-10-14T18:03:29Z" finished-at="2019-10-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowTest2 -->
+        <test-method status="SKIP" signature="saveReport()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="saveReport" is-config="true" duration-ms="0" started-at="2019-10-14T18:03:29Z" finished-at="2019-10-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+        <test-method status="SKIP" signature="windowTest3()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="windowTest3" duration-ms="1" started-at="2019-10-14T18:03:29Z" finished-at="2019-10-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowTest3 -->
+        <test-method status="SKIP" signature="saveReport()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="saveReport" is-config="true" duration-ms="0" started-at="2019-10-14T18:03:29Z" finished-at="2019-10-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+        <test-method status="SKIP" signature="windowTest4()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="windowTest4" duration-ms="0" started-at="2019-10-14T18:03:29Z" finished-at="2019-10-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowTest4 -->
+        <test-method status="SKIP" signature="saveReport()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="saveReport" is-config="true" duration-ms="0" started-at="2019-10-14T18:03:29Z" finished-at="2019-10-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.herokuapp.testLeaf.Window@4883b407]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-10-14T18:03:29Z" finished-at="2019-10-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.herokuapp.testLeaf.Window -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
